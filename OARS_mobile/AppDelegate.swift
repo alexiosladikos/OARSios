@@ -14,7 +14,42 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        let screenSize = UIScreen.main.bounds
+        let screenHeight = screenSize.height
+        if(screenHeight == 568){//SE
+                    let storyBoard = getStoryBoard(name: "SE")
+                    let initialViewController: UIViewController = storyBoard.instantiateInitialViewController() as! UIViewController
+                    self.window?.rootViewController = initialViewController
+                    self.window?.makeKeyAndVisible()
+        }
+        else if(screenHeight==667)//8
+        {
+            let storyBoard = getStoryBoard(name: "Main")
+            let initialViewController: UIViewController = storyBoard.instantiateInitialViewController() as! UIViewController
+            self.window?.rootViewController = initialViewController
+            self.window?.makeKeyAndVisible()
+        }
+        else if(screenHeight==1920)//8+
+        {
+            //        var storyBoard = getStoryBoard(name: "Main")
+            //        var initialViewController: UIViewController = storyBoard.instantiateInitialViewController() as! UIViewController
+            //        self.window?.rootViewController = initialViewController
+            //        self.window?.makeKeyAndVisible()
+        }
+        else//X
+        {
+            //        var storyBoard = getStoryBoard(name: "Main")
+            //        var initialViewController: UIViewController = storyBoard.instantiateInitialViewController() as! UIViewController
+            //        self.window?.rootViewController = initialViewController
+            //        self.window?.makeKeyAndVisible()
+        }
+//        var storyBoard = getStoryBoard(name: "Main")
+//        var initialViewController: UIViewController = storyBoard.instantiateInitialViewController() as! UIViewController
+//        self.window?.rootViewController = initialViewController
+//        self.window?.makeKeyAndVisible()
+        // Override point for customization after application launch.
         // Override point for customization after application launch.
         return true
     }
@@ -41,6 +76,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    func getStoryBoard(name : String)-> UIStoryboard
+    {
+        let storyBoard = UIStoryboard(name: name, bundle: nil);
+        return storyBoard;
+    }
 }
 
