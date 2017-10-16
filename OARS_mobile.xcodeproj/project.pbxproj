@@ -20,6 +20,7 @@
 		2662152D1F8FE296008DA96C /* SE.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2662152B1F8FE296008DA96C /* SE.storyboard */; };
 		2662152F1F8FE2C5008DA96C /* 8plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2662152E1F8FE2C5008DA96C /* 8plus.storyboard */; };
 		26F6BAF61F9514ED00C9B604 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F6BAF51F9514ED00C9B604 /* Calendar.swift */; };
+		26F6BB031F95206B00C9B604 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F6BB021F95206B00C9B604 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +140,7 @@
 		2662152E1F8FE2C5008DA96C /* 8plus.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 8plus.storyboard; sourceTree = "<group>"; };
 		266215301F901252008DA96C /* Siesta.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Siesta.framework.dSYM; path = Carthage/Build/iOS/Siesta.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		26F6BAF51F9514ED00C9B604 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		26F6BB021F95206B00C9B604 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 				266214D61F8EC811008DA96C /* ViewController.swift */,
 				26F6BAF51F9514ED00C9B604 /* Calendar.swift */,
 				2662152B1F8FE296008DA96C /* SE.storyboard */,
+				26F6BB021F95206B00C9B604 /* HomeViewController.swift */,
 				2662152E1F8FE2C5008DA96C /* 8plus.storyboard */,
 				266214D81F8EC811008DA96C /* Main.storyboard */,
 				266214DB1F8EC811008DA96C /* Assets.xcassets */,
@@ -438,6 +441,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26F6BB031F95206B00C9B604 /* HomeViewController.swift in Sources */,
 				266215271F8FC55D008DA96C /* MyService.swift in Sources */,
 				266214D71F8EC811008DA96C /* ViewController.swift in Sources */,
 				266214D51F8EC811008DA96C /* AppDelegate.swift in Sources */,
