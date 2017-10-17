@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		265559091F966922001E5E7C /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265559081F966922001E5E7C /* CustomCell.swift */; };
 		266214D51F8EC811008DA96C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266214D41F8EC811008DA96C /* AppDelegate.swift */; };
 		266214D71F8EC811008DA96C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266214D61F8EC811008DA96C /* ViewController.swift */; };
 		266214DA1F8EC811008DA96C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266214D81F8EC811008DA96C /* Main.storyboard */; };
@@ -19,7 +20,6 @@
 		266215271F8FC55D008DA96C /* MyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266215261F8FC55D008DA96C /* MyService.swift */; };
 		2662152D1F8FE296008DA96C /* SE.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2662152B1F8FE296008DA96C /* SE.storyboard */; };
 		2662152F1F8FE2C5008DA96C /* 8plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2662152E1F8FE2C5008DA96C /* 8plus.storyboard */; };
-		26F6BAF61F9514ED00C9B604 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F6BAF51F9514ED00C9B604 /* Calendar.swift */; };
 		26F6BB031F95206B00C9B604 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F6BB021F95206B00C9B604 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -118,6 +118,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		265559081F966922001E5E7C /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		266214D11F8EC811008DA96C /* OARS_mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OARS_mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		266214D41F8EC811008DA96C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		266214D61F8EC811008DA96C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,7 +140,6 @@
 		2662152C1F8FE296008DA96C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = OARS_mobile/Base.lproj/SE.storyboard; sourceTree = "<group>"; };
 		2662152E1F8FE2C5008DA96C /* 8plus.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 8plus.storyboard; sourceTree = "<group>"; };
 		266215301F901252008DA96C /* Siesta.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Siesta.framework.dSYM; path = Carthage/Build/iOS/Siesta.framework.dSYM; sourceTree = SOURCE_ROOT; };
-		26F6BAF51F9514ED00C9B604 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		26F6BB021F95206B00C9B604 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -199,7 +199,6 @@
 				266214D41F8EC811008DA96C /* AppDelegate.swift */,
 				266215301F901252008DA96C /* Siesta.framework.dSYM */,
 				266214D61F8EC811008DA96C /* ViewController.swift */,
-				26F6BAF51F9514ED00C9B604 /* Calendar.swift */,
 				2662152B1F8FE296008DA96C /* SE.storyboard */,
 				26F6BB021F95206B00C9B604 /* HomeViewController.swift */,
 				2662152E1F8FE2C5008DA96C /* 8plus.storyboard */,
@@ -208,6 +207,7 @@
 				266214DD1F8EC811008DA96C /* LaunchScreen.storyboard */,
 				266214E01F8EC811008DA96C /* Info.plist */,
 				266215261F8FC55D008DA96C /* MyService.swift */,
+				265559081F966922001E5E7C /* CustomCell.swift */,
 			);
 			path = OARS_mobile;
 			sourceTree = "<group>";
@@ -444,8 +444,8 @@
 				26F6BB031F95206B00C9B604 /* HomeViewController.swift in Sources */,
 				266215271F8FC55D008DA96C /* MyService.swift in Sources */,
 				266214D71F8EC811008DA96C /* ViewController.swift in Sources */,
+				265559091F966922001E5E7C /* CustomCell.swift in Sources */,
 				266214D51F8EC811008DA96C /* AppDelegate.swift in Sources */,
-				26F6BAF61F9514ED00C9B604 /* Calendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
