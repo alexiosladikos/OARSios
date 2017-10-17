@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		265559091F966922001E5E7C /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265559081F966922001E5E7C /* CustomCell.swift */; };
 		266214D51F8EC811008DA96C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266214D41F8EC811008DA96C /* AppDelegate.swift */; };
 		266214D71F8EC811008DA96C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266214D61F8EC811008DA96C /* ViewController.swift */; };
 		266214DA1F8EC811008DA96C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266214D81F8EC811008DA96C /* Main.storyboard */; };
@@ -15,12 +14,14 @@
 		266214DF1F8EC811008DA96C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266214DD1F8EC811008DA96C /* LaunchScreen.storyboard */; };
 		266214EA1F8EC811008DA96C /* OARS_mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266214E91F8EC811008DA96C /* OARS_mobileTests.swift */; };
 		266214F51F8EC811008DA96C /* OARS_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266214F41F8EC811008DA96C /* OARS_mobileUITests.swift */; };
-		2662151F1F8FB558008DA96C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266215101F8FB49E008DA96C /* Alamofire.framework */; };
-		266215201F8FB558008DA96C /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266215101F8FB49E008DA96C /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		266215271F8FC55D008DA96C /* MyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266215261F8FC55D008DA96C /* MyService.swift */; };
 		2662152D1F8FE296008DA96C /* SE.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2662152B1F8FE296008DA96C /* SE.storyboard */; };
 		2662152F1F8FE2C5008DA96C /* 8plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2662152E1F8FE2C5008DA96C /* 8plus.storyboard */; };
+		26CCA22E1F969721001531A6 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CCA22F1F969721001531A6 /* JTAppleCalendar.framework */; };
 		26F6BB031F95206B00C9B604 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F6BB021F95206B00C9B604 /* HomeViewController.swift */; };
+		7422110C68AF1E3303928CC9 /* Pods_OARS_mobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A9CA6F95E7231695674B8B /* Pods_OARS_mobileUITests.framework */; };
+		7FF14009E28ACD154472170D /* Pods_OARS_mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C562EA5295B6019EA707000 /* Pods_OARS_mobile.framework */; };
+		9EEE8FE9E5A93E024323A3FE /* Pods_OARS_mobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BD5D750FB599AB8BB90BBD /* Pods_OARS_mobileTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,69 +39,6 @@
 			remoteGlobalIDString = 266214D01F8EC811008DA96C;
 			remoteInfo = OARS_mobile;
 		};
-		2662150F1F8FB49E008DA96C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 266215041F8FB49D008DA96C /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
-			remoteInfo = "Alamofire iOS";
-		};
-		266215111F8FB49E008DA96C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 266215041F8FB49D008DA96C /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
-			remoteInfo = "Alamofire iOS Tests";
-		};
-		266215131F8FB49E008DA96C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 266215041F8FB49D008DA96C /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
-			remoteInfo = "Alamofire macOS";
-		};
-		266215151F8FB49E008DA96C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 266215041F8FB49D008DA96C /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
-			remoteInfo = "Alamofire macOS Tests";
-		};
-		266215171F8FB49E008DA96C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 266215041F8FB49D008DA96C /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
-			remoteInfo = "Alamofire tvOS";
-		};
-		266215191F8FB49E008DA96C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 266215041F8FB49D008DA96C /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
-			remoteInfo = "Alamofire tvOS Tests";
-		};
-		2662151B1F8FB49E008DA96C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 266215041F8FB49D008DA96C /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E4202FE01B667AA100C997FB;
-			remoteInfo = "Alamofire watchOS";
-		};
-		2662151D1F8FB53E008DA96C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 266215041F8FB49D008DA96C /* Alamofire.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
-			remoteInfo = "Alamofire iOS";
-		};
-		266215211F8FB558008DA96C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 266215041F8FB49D008DA96C /* Alamofire.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
-			remoteInfo = "Alamofire iOS";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -110,7 +48,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				266215201F8FB558008DA96C /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,7 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		265559081F966922001E5E7C /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		120664A048E4DCE5E2C9AD98 /* Pods-OARS_mobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OARS_mobileUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OARS_mobileUITests/Pods-OARS_mobileUITests.release.xcconfig"; sourceTree = "<group>"; };
 		266214D11F8EC811008DA96C /* OARS_mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OARS_mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		266214D41F8EC811008DA96C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		266214D61F8EC811008DA96C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,15 +69,19 @@
 		266214F01F8EC811008DA96C /* OARS_mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OARS_mobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		266214F41F8EC811008DA96C /* OARS_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OARS_mobileUITests.swift; sourceTree = "<group>"; };
 		266214F61F8EC811008DA96C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		266215031F8FB2C6008DA96C /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		266215041F8FB49D008DA96C /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Carthage/Checkouts/Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
-		266215241F8FBB5E008DA96C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
-		266215251F8FBB5E008DA96C /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		266215261F8FC55D008DA96C /* MyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyService.swift; sourceTree = "<group>"; };
 		2662152C1F8FE296008DA96C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = OARS_mobile/Base.lproj/SE.storyboard; sourceTree = "<group>"; };
 		2662152E1F8FE2C5008DA96C /* 8plus.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 8plus.storyboard; sourceTree = "<group>"; };
-		266215301F901252008DA96C /* Siesta.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Siesta.framework.dSYM; path = Carthage/Build/iOS/Siesta.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		26CCA22F1F969721001531A6 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JTAppleCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F6BB021F95206B00C9B604 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		45BD5D750FB599AB8BB90BBD /* Pods_OARS_mobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OARS_mobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DAA58B2B38A28578D2C7BD /* Pods-OARS_mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OARS_mobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OARS_mobile/Pods-OARS_mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		62A9CA6F95E7231695674B8B /* Pods_OARS_mobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OARS_mobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C562EA5295B6019EA707000 /* Pods_OARS_mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OARS_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA131372A98070F07970590 /* Pods-OARS_mobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OARS_mobileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OARS_mobileTests/Pods-OARS_mobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8F29D9DB4FBD0D057D4F6B3 /* Pods-OARS_mobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OARS_mobileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OARS_mobileTests/Pods-OARS_mobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB7A12F5775647714AF788EF /* Pods-OARS_mobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OARS_mobileUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OARS_mobileUITests/Pods-OARS_mobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F29B3A299863FF1B2B454322 /* Pods-OARS_mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OARS_mobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-OARS_mobile/Pods-OARS_mobile.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2662151F1F8FB558008DA96C /* Alamofire.framework in Frameworks */,
+				26CCA22E1F969721001531A6 /* JTAppleCalendar.framework in Frameworks */,
+				7FF14009E28ACD154472170D /* Pods_OARS_mobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EEE8FE9E5A93E024323A3FE /* Pods_OARS_mobileTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7422110C68AF1E3303928CC9 /* Pods_OARS_mobileUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +120,8 @@
 				266214E81F8EC811008DA96C /* OARS_mobileTests */,
 				266214F31F8EC811008DA96C /* OARS_mobileUITests */,
 				266214D21F8EC811008DA96C /* Products */,
-				266215031F8FB2C6008DA96C /* Cartfile */,
-				266215041F8FB49D008DA96C /* Alamofire.xcodeproj */,
+				A97F6952C7CE15A874712BD7 /* Pods */,
+				66B886FD25CDA00B5BD05EBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,10 +138,7 @@
 		266214D31F8EC811008DA96C /* OARS_mobile */ = {
 			isa = PBXGroup;
 			children = (
-				266215241F8FBB5E008DA96C /* Alamofire.framework */,
-				266215251F8FBB5E008DA96C /* Alamofire.framework.dSYM */,
 				266214D41F8EC811008DA96C /* AppDelegate.swift */,
-				266215301F901252008DA96C /* Siesta.framework.dSYM */,
 				266214D61F8EC811008DA96C /* ViewController.swift */,
 				2662152B1F8FE296008DA96C /* SE.storyboard */,
 				26F6BB021F95206B00C9B604 /* HomeViewController.swift */,
@@ -207,7 +148,6 @@
 				266214DD1F8EC811008DA96C /* LaunchScreen.storyboard */,
 				266214E01F8EC811008DA96C /* Info.plist */,
 				266215261F8FC55D008DA96C /* MyService.swift */,
-				265559081F966922001E5E7C /* CustomCell.swift */,
 			);
 			path = OARS_mobile;
 			sourceTree = "<group>";
@@ -230,18 +170,28 @@
 			path = OARS_mobileUITests;
 			sourceTree = "<group>";
 		};
-		266215051F8FB49D008DA96C /* Products */ = {
+		66B886FD25CDA00B5BD05EBD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				266215101F8FB49E008DA96C /* Alamofire.framework */,
-				266215121F8FB49E008DA96C /* Alamofire iOS Tests.xctest */,
-				266215141F8FB49E008DA96C /* Alamofire.framework */,
-				266215161F8FB49E008DA96C /* Alamofire macOS Tests.xctest */,
-				266215181F8FB49E008DA96C /* Alamofire.framework */,
-				2662151A1F8FB49E008DA96C /* Alamofire tvOS Tests.xctest */,
-				2662151C1F8FB49E008DA96C /* Alamofire.framework */,
+				26CCA22F1F969721001531A6 /* JTAppleCalendar.framework */,
+				6C562EA5295B6019EA707000 /* Pods_OARS_mobile.framework */,
+				45BD5D750FB599AB8BB90BBD /* Pods_OARS_mobileTests.framework */,
+				62A9CA6F95E7231695674B8B /* Pods_OARS_mobileUITests.framework */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A97F6952C7CE15A874712BD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56DAA58B2B38A28578D2C7BD /* Pods-OARS_mobile.debug.xcconfig */,
+				F29B3A299863FF1B2B454322 /* Pods-OARS_mobile.release.xcconfig */,
+				BCA131372A98070F07970590 /* Pods-OARS_mobileTests.debug.xcconfig */,
+				D8F29D9DB4FBD0D057D4F6B3 /* Pods-OARS_mobileTests.release.xcconfig */,
+				DB7A12F5775647714AF788EF /* Pods-OARS_mobileUITests.debug.xcconfig */,
+				120664A048E4DCE5E2C9AD98 /* Pods-OARS_mobileUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,16 +201,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 266214F91F8EC811008DA96C /* Build configuration list for PBXNativeTarget "OARS_mobile" */;
 			buildPhases = (
+				C21771843F60340AF8183810 /* [CP] Check Pods Manifest.lock */,
 				266214CD1F8EC811008DA96C /* Sources */,
 				266214CE1F8EC811008DA96C /* Frameworks */,
 				266214CF1F8EC811008DA96C /* Resources */,
 				266215231F8FB558008DA96C /* Embed Frameworks */,
+				096CCEE750ED219CB2D0A8E9 /* [CP] Embed Pods Frameworks */,
+				9B35C0B660D379E1F6DBD64F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2662151E1F8FB53E008DA96C /* PBXTargetDependency */,
-				266215221F8FB558008DA96C /* PBXTargetDependency */,
 			);
 			name = OARS_mobile;
 			productName = OARS_mobile;
@@ -271,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 266214FC1F8EC811008DA96C /* Build configuration list for PBXNativeTarget "OARS_mobileTests" */;
 			buildPhases = (
+				A1F4ECCA7B70FBD4E65AE99E /* [CP] Check Pods Manifest.lock */,
 				266214E11F8EC811008DA96C /* Sources */,
 				266214E21F8EC811008DA96C /* Frameworks */,
 				266214E31F8EC811008DA96C /* Resources */,
+				956CA2A0620CF2CB20483312 /* [CP] Embed Pods Frameworks */,
+				98EA391AE560C31D45B3A3F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 266214FF1F8EC811008DA96C /* Build configuration list for PBXNativeTarget "OARS_mobileUITests" */;
 			buildPhases = (
+				E070FA62624308B037FDABBB /* [CP] Check Pods Manifest.lock */,
 				266214EC1F8EC811008DA96C /* Sources */,
 				266214ED1F8EC811008DA96C /* Frameworks */,
 				266214EE1F8EC811008DA96C /* Resources */,
+				15D967A3E866F196A5B0527D /* [CP] Embed Pods Frameworks */,
+				FE1E7B0B4B85D524D1DF4F9E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -340,12 +297,6 @@
 			mainGroup = 266214C81F8EC811008DA96C;
 			productRefGroup = 266214D21F8EC811008DA96C /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 266215051F8FB49D008DA96C /* Products */;
-					ProjectRef = 266215041F8FB49D008DA96C /* Alamofire.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				266214D01F8EC811008DA96C /* OARS_mobile */,
@@ -354,58 +305,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		266215101F8FB49E008DA96C /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 2662150F1F8FB49E008DA96C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		266215121F8FB49E008DA96C /* Alamofire iOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Alamofire iOS Tests.xctest";
-			remoteRef = 266215111F8FB49E008DA96C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		266215141F8FB49E008DA96C /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 266215131F8FB49E008DA96C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		266215161F8FB49E008DA96C /* Alamofire macOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Alamofire macOS Tests.xctest";
-			remoteRef = 266215151F8FB49E008DA96C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		266215181F8FB49E008DA96C /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 266215171F8FB49E008DA96C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		2662151A1F8FB49E008DA96C /* Alamofire tvOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Alamofire tvOS Tests.xctest";
-			remoteRef = 266215191F8FB49E008DA96C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		2662151C1F8FB49E008DA96C /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 2662151B1F8FB49E008DA96C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		266214CF1F8EC811008DA96C /* Resources */ = {
@@ -436,6 +335,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		096CCEE750ED219CB2D0A8E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OARS_mobile/Pods-OARS_mobile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/Siesta/Siesta.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Siesta.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OARS_mobile/Pods-OARS_mobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15D967A3E866F196A5B0527D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OARS_mobileUITests/Pods-OARS_mobileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		956CA2A0620CF2CB20483312 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OARS_mobileTests/Pods-OARS_mobileTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98EA391AE560C31D45B3A3F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OARS_mobileTests/Pods-OARS_mobileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B35C0B660D379E1F6DBD64F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OARS_mobile/Pods-OARS_mobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1F4ECCA7B70FBD4E65AE99E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OARS_mobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C21771843F60340AF8183810 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OARS_mobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E070FA62624308B037FDABBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OARS_mobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE1E7B0B4B85D524D1DF4F9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OARS_mobileUITests/Pods-OARS_mobileUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		266214CD1F8EC811008DA96C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -444,7 +501,6 @@
 				26F6BB031F95206B00C9B604 /* HomeViewController.swift in Sources */,
 				266215271F8FC55D008DA96C /* MyService.swift in Sources */,
 				266214D71F8EC811008DA96C /* ViewController.swift in Sources */,
-				265559091F966922001E5E7C /* CustomCell.swift in Sources */,
 				266214D51F8EC811008DA96C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,16 +533,6 @@
 			isa = PBXTargetDependency;
 			target = 266214D01F8EC811008DA96C /* OARS_mobile */;
 			targetProxy = 266214F11F8EC811008DA96C /* PBXContainerItemProxy */;
-		};
-		2662151E1F8FB53E008DA96C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Alamofire iOS";
-			targetProxy = 2662151D1F8FB53E008DA96C /* PBXContainerItemProxy */;
-		};
-		266215221F8FB558008DA96C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Alamofire iOS";
-			targetProxy = 266215211F8FB558008DA96C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -627,8 +673,9 @@
 		};
 		266214FA1F8EC811008DA96C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56DAA58B2B38A28578D2C7BD /* Pods-OARS_mobile.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SZZNL33DD;
@@ -644,8 +691,9 @@
 		};
 		266214FB1F8EC811008DA96C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29B3A299863FF1B2B454322 /* Pods-OARS_mobile.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SZZNL33DD;
@@ -661,6 +709,7 @@
 		};
 		266214FD1F8EC811008DA96C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCA131372A98070F07970590 /* Pods-OARS_mobileTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -678,6 +727,7 @@
 		};
 		266214FE1F8EC811008DA96C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F29D9DB4FBD0D057D4F6B3 /* Pods-OARS_mobileTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -695,6 +745,7 @@
 		};
 		266215001F8EC811008DA96C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB7A12F5775647714AF788EF /* Pods-OARS_mobileUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -711,6 +762,7 @@
 		};
 		266215011F8EC811008DA96C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120664A048E4DCE5E2C9AD98 /* Pods-OARS_mobileUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
