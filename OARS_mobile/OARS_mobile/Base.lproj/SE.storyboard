@@ -228,22 +228,7 @@
                                 </items>
                             </navigationBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OyT-3B-WNb" customClass="PieChartView" customModule="Charts">
-                                <rect key="frame" x="0.0" y="64" width="166" height="114"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Unc-N8-awk" customClass="PieChartView2">
-                                <rect key="frame" x="0.0" y="175" width="156" height="137"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oBi-aD-cTR" customClass="PieChartView" customModule="Charts">
-                                <rect key="frame" x="148" y="64" width="172" height="114"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3V1-U3-Bfd" customClass="PieChartView4">
-                                <rect key="frame" x="148" y="175" width="172" height="137"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="248"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
@@ -276,7 +261,6 @@
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="pie1" destination="OyT-3B-WNb" id="bov-IB-gBe"/>
-                        <outlet property="pie2" destination="oBi-aD-cTR" id="7jO-sh-zrK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dj9-4H-t7R" userLabel="First Responder" sceneMemberID="firstResponder"/>
