@@ -18,7 +18,6 @@
 		2662152F1F8FE2C5008DA96C /* 8plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2662152E1F8FE2C5008DA96C /* 8plus.storyboard */; };
 		2663C0791F97C01C0042C214 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2663C0781F97C01C0042C214 /* HomePage.swift */; };
 		267F56241F96A2E900726BF4 /* PictureUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267F56231F96A2E900726BF4 /* PictureUpload.swift */; };
-		267F56261F96A64300726BF4 /* PopUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267F56251F96A64300726BF4 /* PopUpController.swift */; };
 		26CCA22E1F969721001531A6 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CCA22F1F969721001531A6 /* JTAppleCalendar.framework */; };
 		26F6BB031F95206B00C9B604 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F6BB021F95206B00C9B604 /* HomeViewController.swift */; };
 		7422110C68AF1E3303928CC9 /* Pods_OARS_mobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A9CA6F95E7231695674B8B /* Pods_OARS_mobileUITests.framework */; };
@@ -75,7 +74,6 @@
 		2662152E1F8FE2C5008DA96C /* 8plus.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 8plus.storyboard; sourceTree = "<group>"; };
 		2663C0781F97C01C0042C214 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		267F56231F96A2E900726BF4 /* PictureUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureUpload.swift; sourceTree = "<group>"; };
-		267F56251F96A64300726BF4 /* PopUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpController.swift; sourceTree = "<group>"; };
 		26CCA22F1F969721001531A6 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JTAppleCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F6BB021F95206B00C9B604 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		45BD5D750FB599AB8BB90BBD /* Pods_OARS_mobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OARS_mobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,7 +144,6 @@
 				266214D61F8EC811008DA96C /* ViewController.swift */,
 				2662152B1F8FE296008DA96C /* SE.storyboard */,
 				267F56231F96A2E900726BF4 /* PictureUpload.swift */,
-				267F56251F96A64300726BF4 /* PopUpController.swift */,
 				26F6BB021F95206B00C9B604 /* HomeViewController.swift */,
 				2662152E1F8FE2C5008DA96C /* 8plus.storyboard */,
 				266214D81F8EC811008DA96C /* Main.storyboard */,
@@ -508,7 +505,6 @@
 				2663C0791F97C01C0042C214 /* HomePage.swift in Sources */,
 				26F6BB031F95206B00C9B604 /* HomeViewController.swift in Sources */,
 				266214D71F8EC811008DA96C /* ViewController.swift in Sources */,
-				267F56261F96A64300726BF4 /* PopUpController.swift in Sources */,
 				266214D51F8EC811008DA96C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

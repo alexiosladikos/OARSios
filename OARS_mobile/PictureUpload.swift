@@ -8,8 +8,10 @@
 
 import UIKit
 
-class PictureUpload: UIViewController {
+class PictureUpload: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
 
+    @IBOutlet weak var myImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,14 +22,27 @@ class PictureUpload: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    @IBAction func showPopup(_ sender: AnyObject) {
-        let popOverVC = UIStoryboard(name: "SE", bundle: nil).instantiateViewController(withIdentifier: "popupmenu")as! PopUpController
-        self.addChildViewController(popOverVC)
-        popOverVC.view.frame = self.view.frame
-        self.view.addSubview(popOverVC.view)
-        popOverVC.didMove(toParentViewController: self)
-    }
     
+//    @IBAction func importmage(_ sender: AnyObject){
+//        let image = UIImagePickerController()
+//        image.delegate = self
+//        image.sourceType = UIImagePickerControllerSourceType.photoLibrary
+//        image.allowsEditing = false
+//        self.present(image, animated: true){
+//            
+//        }
+//        
+//    }
+//    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+//        if let image = info[UIImagePickerControllerOriginalImage] as?UIImage{
+//            myImage.image=image
+//        }else{
+//           //error message
+//        }
+//        self.dismiss(animated: true, completion: nil) 
+//            
+//        
+//    }
 
     /*
     // MARK: - Navigation
