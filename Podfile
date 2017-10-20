@@ -9,6 +9,8 @@ target 'OARS_mobile' do
     pod 'Alamofire', '~> 4.5'
     pod 'Siesta/Alamofire', '~> 1.0'
     pod 'Charts'
+    pod 'Moya'
+
 
   # Pods for OARS_mobile
 

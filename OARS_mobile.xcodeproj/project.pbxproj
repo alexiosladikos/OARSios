@@ -19,6 +19,7 @@
 		2663C0791F97C01C0042C214 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2663C0781F97C01C0042C214 /* HomePage.swift */; };
 		267F56241F96A2E900726BF4 /* PictureUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267F56231F96A2E900726BF4 /* PictureUpload.swift */; };
 		26CCA22E1F969721001531A6 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CCA22F1F969721001531A6 /* JTAppleCalendar.framework */; };
+		26DCF3CF1F9A89510084B7C8 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DCF3CE1F9A89510084B7C8 /* CustomCell.swift */; };
 		26F6BB031F95206B00C9B604 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F6BB021F95206B00C9B604 /* HomeViewController.swift */; };
 		7422110C68AF1E3303928CC9 /* Pods_OARS_mobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A9CA6F95E7231695674B8B /* Pods_OARS_mobileUITests.framework */; };
 		7FF14009E28ACD154472170D /* Pods_OARS_mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C562EA5295B6019EA707000 /* Pods_OARS_mobile.framework */; };
@@ -75,6 +76,7 @@
 		2663C0781F97C01C0042C214 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		267F56231F96A2E900726BF4 /* PictureUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureUpload.swift; sourceTree = "<group>"; };
 		26CCA22F1F969721001531A6 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JTAppleCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DCF3CE1F9A89510084B7C8 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		26F6BB021F95206B00C9B604 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		45BD5D750FB599AB8BB90BBD /* Pods_OARS_mobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OARS_mobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56DAA58B2B38A28578D2C7BD /* Pods-OARS_mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OARS_mobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OARS_mobile/Pods-OARS_mobile.debug.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				266214DD1F8EC811008DA96C /* LaunchScreen.storyboard */,
 				266214E01F8EC811008DA96C /* Info.plist */,
 				2663C0781F97C01C0042C214 /* HomePage.swift */,
+				26DCF3CE1F9A89510084B7C8 /* CustomCell.swift */,
 			);
 			path = OARS_mobile;
 			sourceTree = "<group>";
@@ -349,6 +352,8 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/Siesta/Siesta.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -357,6 +362,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Siesta.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -505,6 +512,7 @@
 				2663C0791F97C01C0042C214 /* HomePage.swift in Sources */,
 				26F6BB031F95206B00C9B604 /* HomeViewController.swift in Sources */,
 				266214D71F8EC811008DA96C /* ViewController.swift in Sources */,
+				26DCF3CF1F9A89510084B7C8 /* CustomCell.swift in Sources */,
 				266214D51F8EC811008DA96C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
