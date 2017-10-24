@@ -20,6 +20,8 @@ class PictureUpload: UIViewController, UINavigationControllerDelegate, UIImagePi
         myImage.layer.cornerRadius = myImage.frame.height/2
         myImage.clipsToBounds = true
         // Do any additional setup after loading the view.
+      
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -53,11 +55,20 @@ class PictureUpload: UIViewController, UINavigationControllerDelegate, UIImagePi
         let image = info[UIImagePickerControllerOriginalImage] as! UIImage
         
         myImage.image = image
+        saveImage ()
         picker.dismiss(animated: true, completion: nil)
             
     }
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         picker.dismiss(animated: true, completion: nil)
        
+    }
+    func saveImage (){
+            let imageData:NSData = UIImagePNGRepresentation(myImage.image!)! as NSData
+//            print(imageData)
+            UserDefaults.standard.set(imageData, forKey: "savedImage")
+            let data = UserDefaults.standard.object(forKey: "savedImage") as! NSData
+            myImage.image = UIImage(data:data as Data)
+      
     }
 }
