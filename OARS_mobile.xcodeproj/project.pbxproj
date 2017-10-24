@@ -23,6 +23,7 @@
 		26B3AD0E1F9E4EED007AF2DF /* green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26B3AD0A1F9E4EE9007AF2DF /* green.jpg */; };
 		26B3AD0F1F9E4EED007AF2DF /* orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26B3AD0B1F9E4EEB007AF2DF /* orange.jpg */; };
 		26CCA22E1F969721001531A6 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CCA22F1F969721001531A6 /* JTAppleCalendar.framework */; };
+		26D810591F9FAEDD0008A3B6 /* progressControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D810581F9FAEDD0008A3B6 /* progressControll.swift */; };
 		26DCF3CF1F9A89510084B7C8 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DCF3CE1F9A89510084B7C8 /* CustomCell.swift */; };
 		26DCF3D11F9A98790084B7C8 /* logo copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DCF3D01F9A98780084B7C8 /* logo copy.png */; };
 		26F6BB031F95206B00C9B604 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F6BB021F95206B00C9B604 /* HomeViewController.swift */; };
@@ -86,6 +87,7 @@
 		26B3AD0A1F9E4EE9007AF2DF /* green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = green.jpg; path = ../../../green.jpg; sourceTree = "<group>"; };
 		26B3AD0B1F9E4EEB007AF2DF /* orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = orange.jpg; path = ../../../orange.jpg; sourceTree = "<group>"; };
 		26CCA22F1F969721001531A6 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JTAppleCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D810581F9FAEDD0008A3B6 /* progressControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progressControll.swift; sourceTree = "<group>"; };
 		26DCF3CE1F9A89510084B7C8 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		26DCF3D01F9A98780084B7C8 /* logo copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo copy.png"; path = "../../../logo copy.png"; sourceTree = "<group>"; };
 		26F6BB021F95206B00C9B604 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				266214E01F8EC811008DA96C /* Info.plist */,
 				2663C0781F97C01C0042C214 /* HomePage.swift */,
 				26DCF3CE1F9A89510084B7C8 /* CustomCell.swift */,
+				26D810581F9FAEDD0008A3B6 /* progressControll.swift */,
 			);
 			path = OARS_mobile;
 			sourceTree = "<group>";
@@ -537,6 +540,7 @@
 			files = (
 				267F56241F96A2E900726BF4 /* PictureUpload.swift in Sources */,
 				2663C0791F97C01C0042C214 /* HomePage.swift in Sources */,
+				26D810591F9FAEDD0008A3B6 /* progressControll.swift in Sources */,
 				26F6BB031F95206B00C9B604 /* HomeViewController.swift in Sources */,
 				266214D71F8EC811008DA96C /* ViewController.swift in Sources */,
 				26DCF3CF1F9A89510084B7C8 /* CustomCell.swift in Sources */,
