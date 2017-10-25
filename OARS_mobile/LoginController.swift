@@ -23,6 +23,7 @@ class LoginController: UIViewController {
                 if (wasSuccessful){
                     print("Authentication Successful")
                 }else{
+                    
                     print("Authentication Unsuccessful")
                 }
             })

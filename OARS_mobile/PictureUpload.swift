@@ -28,6 +28,8 @@ class PictureUpload: UIViewController, UINavigationControllerDelegate, UIImagePi
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBAction func GoToCalendar(_ sender: Any) {
+        }
     @IBAction func chooseImage(_ sender: Any) {
         
         let imagePickerController = UIImagePickerController()
