@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OARS_mobile" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginController" customModule="OARS_mobile" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,6 +64,14 @@
                                 <rect key="frame" x="105" y="51" width="110" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wud-So-HL0">
+                                <rect key="frame" x="128" y="285" width="64" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Toutch id"/>
+                                <connections>
+                                    <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2kD-xs-Eh2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="hOQ-Bj-Wma"/>
@@ -464,6 +472,9 @@
                                 <state key="normal" title="Edit">
                                     <color key="titleShadowColor" red="0.10734518617391586" green="0.44510281085968018" blue="0.94650381803512573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="chooseImage:" destination="3uC-97-wfY" eventType="touchUpInside" id="ftH-lK-hLQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gY-Us-mki">
                                 <rect key="frame" x="-1" y="518" width="322" height="50"/>
@@ -509,7 +520,7 @@
                                         <rect key="frame" x="0.0" y="28" width="190" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rRv-MA-tST" id="fyK-M7-KkF">
-                                            <rect key="frame" x="0.0" y="0.0" width="190" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="190" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -517,7 +528,7 @@
                                         <rect key="frame" x="0.0" y="72" width="190" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EJv-Wq-Rdq" id="4xb-Zj-D8t">
-                                            <rect key="frame" x="0.0" y="0.0" width="190" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="190" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -525,7 +536,7 @@
                                         <rect key="frame" x="0.0" y="116" width="190" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LdJ-a8-cih" id="3QR-RP-H1Q">
-                                            <rect key="frame" x="0.0" y="0.0" width="190" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="190" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -535,6 +546,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="bbt-Q4-PSx"/>
                     </view>
+                    <connections>
+                        <outlet property="myImage" destination="HL1-8J-QTU" id="9KC-1r-Nyz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DGM-DC-qm5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
