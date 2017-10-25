@@ -10,11 +10,6 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
-    @IBOutlet weak var Messages: UITabBarItem!
-    @IBOutlet weak var Journal: UITabBarItem!
-    @IBOutlet weak var Progress: UITabBarItem!
-    @IBOutlet weak var Calendar: UITabBarItem!
-    @IBOutlet weak var Education: UITabBarItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()

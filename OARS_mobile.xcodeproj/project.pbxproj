@@ -25,8 +25,8 @@
 		26CCA22E1F969721001531A6 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CCA22F1F969721001531A6 /* JTAppleCalendar.framework */; };
 		26D810591F9FAEDD0008A3B6 /* progressControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D810581F9FAEDD0008A3B6 /* progressControll.swift */; };
 		26DCF3CF1F9A89510084B7C8 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DCF3CE1F9A89510084B7C8 /* CustomCell.swift */; };
-		26DCF3D11F9A98790084B7C8 /* logo copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DCF3D01F9A98780084B7C8 /* logo copy.png */; };
-		26F6BB031F95206B00C9B604 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F6BB021F95206B00C9B604 /* HomeViewController.swift */; };
+		26DCF3D11F9A98790084B7C8 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DCF3D01F9A98780084B7C8 /* logo@2x.png */; };
+		26F6BB031F95206B00C9B604 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F6BB021F95206B00C9B604 /* LoginController.swift */; };
 		7422110C68AF1E3303928CC9 /* Pods_OARS_mobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A9CA6F95E7231695674B8B /* Pods_OARS_mobileUITests.framework */; };
 		7FF14009E28ACD154472170D /* Pods_OARS_mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C562EA5295B6019EA707000 /* Pods_OARS_mobile.framework */; };
 		9EEE8FE9E5A93E024323A3FE /* Pods_OARS_mobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BD5D750FB599AB8BB90BBD /* Pods_OARS_mobileTests.framework */; };
@@ -89,8 +89,8 @@
 		26CCA22F1F969721001531A6 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JTAppleCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D810581F9FAEDD0008A3B6 /* progressControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progressControll.swift; sourceTree = "<group>"; };
 		26DCF3CE1F9A89510084B7C8 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
-		26DCF3D01F9A98780084B7C8 /* logo copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo copy.png"; path = "../../../logo copy.png"; sourceTree = "<group>"; };
-		26F6BB021F95206B00C9B604 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		26DCF3D01F9A98780084B7C8 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "../../../logo@2x.png"; sourceTree = "<group>"; };
+		26F6BB021F95206B00C9B604 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		45BD5D750FB599AB8BB90BBD /* Pods_OARS_mobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OARS_mobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56DAA58B2B38A28578D2C7BD /* Pods-OARS_mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OARS_mobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OARS_mobile/Pods-OARS_mobile.debug.xcconfig"; sourceTree = "<group>"; };
 		62A9CA6F95E7231695674B8B /* Pods_OARS_mobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OARS_mobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,12 +156,12 @@
 			isa = PBXGroup;
 			children = (
 				264043DE1F9A9D7C00D66A77 /* OARS_mobile.entitlements */,
-				26DCF3D01F9A98780084B7C8 /* logo copy.png */,
+				26DCF3D01F9A98780084B7C8 /* logo@2x.png */,
 				266214D41F8EC811008DA96C /* AppDelegate.swift */,
 				266214D61F8EC811008DA96C /* ViewController.swift */,
 				2662152B1F8FE296008DA96C /* SE.storyboard */,
 				267F56231F96A2E900726BF4 /* PictureUpload.swift */,
-				26F6BB021F95206B00C9B604 /* HomeViewController.swift */,
+				26F6BB021F95206B00C9B604 /* LoginController.swift */,
 				2662152E1F8FE2C5008DA96C /* 8plus.storyboard */,
 				266214D81F8EC811008DA96C /* Main.storyboard */,
 				26B3AD0A1F9E4EE9007AF2DF /* green.jpg */,
@@ -350,7 +350,7 @@
 				266214DC1F8EC811008DA96C /* Assets.xcassets in Resources */,
 				26B3AD0C1F9E4EED007AF2DF /* red.jpg in Resources */,
 				26B3AD0D1F9E4EED007AF2DF /* yellow.jpg in Resources */,
-				26DCF3D11F9A98790084B7C8 /* logo copy.png in Resources */,
+				26DCF3D11F9A98790084B7C8 /* logo@2x.png in Resources */,
 				266214DA1F8EC811008DA96C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,7 +541,7 @@
 				267F56241F96A2E900726BF4 /* PictureUpload.swift in Sources */,
 				2663C0791F97C01C0042C214 /* HomePage.swift in Sources */,
 				26D810591F9FAEDD0008A3B6 /* progressControll.swift in Sources */,
-				26F6BB031F95206B00C9B604 /* HomeViewController.swift in Sources */,
+				26F6BB031F95206B00C9B604 /* LoginController.swift in Sources */,
 				266214D71F8EC811008DA96C /* ViewController.swift in Sources */,
 				26DCF3CF1F9A89510084B7C8 /* CustomCell.swift in Sources */,
 				266214D51F8EC811008DA96C /* AppDelegate.swift in Sources */,

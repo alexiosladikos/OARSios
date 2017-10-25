@@ -14,13 +14,13 @@ class PictureUpload: UIViewController, UINavigationControllerDelegate, UIImagePi
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        myImage.layer.borderWidth = 1
-        myImage.layer.masksToBounds = false
-//        myImage.layer.borderColor = UIColor.blackColor().CGColor
-        myImage.layer.cornerRadius = myImage.frame.height/2
-        myImage.clipsToBounds = true
+//        myImage.layer.borderWidth = 1
+//        myImage.layer.masksToBounds = false
+////        myImage.layer.borderColor = UIColor.blackColor().CGColor
+//        myImage.layer.cornerRadius = myImage.frame.height/2
+//        myImage.clipsToBounds = true
         // Do any additional setup after loading the view.
-      
+  
         
     }
 
@@ -56,6 +56,8 @@ class PictureUpload: UIViewController, UINavigationControllerDelegate, UIImagePi
         
         myImage.image = image
         saveImage ()
+        myImage.transform = myImage.transform.rotated(by: CGFloat(Double.pi/2))
+
         picker.dismiss(animated: true, completion: nil)
             
     }
@@ -64,8 +66,8 @@ class PictureUpload: UIViewController, UINavigationControllerDelegate, UIImagePi
        
     }
     func saveImage (){
+        
             let imageData:NSData = UIImagePNGRepresentation(myImage.image!)! as NSData
-//            print(imageData)
             UserDefaults.standard.set(imageData, forKey: "savedImage")
             let data = UserDefaults.standard.object(forKey: "savedImage") as! NSData
             myImage.image = UIImage(data:data as Data)
