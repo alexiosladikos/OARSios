@@ -22,6 +22,9 @@ class LoginController: UIViewController {
                 (wasSuccessful, error) in
                 if (wasSuccessful){
                     print("Authentication Successful")
+                    let vc : AnyObject! = self.storyboard!.instantiateViewController(withIdentifier: "Home")
+//                    self.show(vc as! UIViewController, sender: vc)
+                    self.present(vc as! UIViewController, animated: true, completion: nil)
                 }else{
                     
                     print("Authentication Unsuccessful")

@@ -9,12 +9,22 @@
 import UIKit
 
 class TabBarController: UITabBarController {
+ 
 
-    @IBOutlet var tab: UITabBar!
     
+//    @IBOutlet weak var TabView: UIView!
+//    @IBOutlet var buttons: [UIButton]!
+//    var homeViewController: UIViewController!
+//    var progressViewController: UIViewController!
+//    var journalsViewController: UIViewController!
+//    var messagesViewController: UIViewController!
+//    var calendarViewController: UIViewController!
+//    var viewControllers: [UIViewController]!
+//    var selectedIndex: Int = 0
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+     
         
         // Do any additional setup after loading the view.
     }
@@ -26,14 +36,6 @@ class TabBarController: UITabBarController {
  
         
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
