@@ -9,6 +9,33 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="E31-dh-sFa">
+            <objects>
+                <viewController id="pR3-0B-Q8j" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xGh-NW-aOX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v2p-Pl-bRq">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Journals" id="itX-U9-Hq2">
+                                        <barButtonItem key="leftBarButtonItem" title="OARS" id="HA3-f4-huS"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Profile" id="yZ1-nG-3kR"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.13157383340000001" blue="0.21039222369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="q4h-Tn-iMb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kyk-Gt-M6b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1713" y="60"/>
+        </scene>
         <!--Login Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -57,7 +84,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Tbq-QC-YIU" kind="show" id="4Rg-hz-e5z"/>
+                                    <segue destination="Ili-5S-j6I" kind="show" id="oDG-ks-ypB"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo@2x.png" translatesAutoresizingMaskIntoConstraints="NO" id="aU0-1m-tD2">
@@ -105,11 +132,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Progress" id="kwu-rF-JhU">
-                                        <barButtonItem key="leftBarButtonItem" title="OARS" id="d5I-ie-Yaw">
-                                            <connections>
-                                                <segue destination="IeJ-Vt-F6q" kind="show" id="KTt-xz-0sD"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="leftBarButtonItem" title="OARS" id="d5I-ie-Yaw"/>
                                         <barButtonItem key="rightBarButtonItem" title="Profile" id="GaE-8n-xFK">
                                             <connections>
                                                 <segue destination="3uC-97-wfY" kind="show" id="Ny5-Lo-Zoc"/>
@@ -129,165 +152,126 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="58c-VP-R3Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1871" y="1079"/>
+            <point key="canvasLocation" x="278" y="-757"/>
         </scene>
-        <!--Messages-->
-        <scene sceneID="wbe-7N-4aB">
+        <!--TabBarController-->
+        <scene sceneID="BrB-6u-zQd">
             <objects>
-                <viewController id="OAf-3q-wQv" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="JE9-mm-6xo">
+                <viewController title="TabBarController" id="Ili-5S-j6I" customClass="TabBarController" customModule="OARS_mobile" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UU3-Kp-oiY">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3cL-Nk-FBt">
-                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Title" id="WTc-H3-g5X">
-                                        <barButtonItem key="leftBarButtonItem" title="OARS" id="Mci-ja-PgW">
-                                            <connections>
-                                                <segue destination="IeJ-Vt-F6q" kind="show" id="Z0i-Qi-E49"/>
-                                            </connections>
-                                        </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Profile" id="iAN-gX-ulW">
-                                            <connections>
-                                                <segue destination="3uC-97-wfY" kind="show" id="3jD-5F-Npt"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="snh-Iz-cDZ">
+                                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6f-ik-uBS">
+                                        <rect key="frame" x="204" y="5" width="46" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.37417923969929023" green="1" blue="0.25915439632489168" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Messages"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBr-YI-gY4">
+                                        <rect key="frame" x="138" y="5" width="45" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.13157383342529716" blue="0.21039222374626021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Journals"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afu-G3-IXu">
+                                        <rect key="frame" x="8" y="5" width="42" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.17919452527728819" green="0.25906567972726768" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Home"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAf-FQ-BL5">
+                                        <rect key="frame" x="69" y="5" width="46" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Progress"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHp-hB-07e">
+                                        <rect key="frame" x="267" y="5" width="45" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.29146678081837007" blue="0.82772827964541418" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Calendar"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8q5-U7-uh1">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="518"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.6535550014" blue="0.17638791209999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="Hfs-47-XZZ"/>
+                        <viewLayoutGuide key="safeArea" id="7GP-Tt-zEA"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Messages" id="WAo-gl-CVZ"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="pie1" destination="OyT-3B-WNb" id="gtC-2r-h2F"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SKq-zH-NDq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Bg-4A-zJp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="684" y="-757"/>
+            <point key="canvasLocation" x="277.5" y="70.774647887323951"/>
         </scene>
-        <!--Education-->
-        <scene sceneID="vsu-pM-yPM">
+        <!--Home Page-->
+        <scene sceneID="bgU-X2-rPl">
             <objects>
-                <viewController id="b8B-Gf-xfz" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="L0f-Ic-Eja">
+                <viewController id="RIC-Xe-TmP" customClass="HomePage" customModule="OARS_mobile" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C8L-jh-s3g">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZT8-X4-P3a">
-                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Title" id="qYp-Rj-mQI">
-                                        <barButtonItem key="leftBarButtonItem" title="OARS" id="EI2-lZ-jfa">
-                                            <connections>
-                                                <segue destination="IeJ-Vt-F6q" kind="show" id="EMZ-pb-27Y"/>
-                                            </connections>
-                                        </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Profile" id="90u-a2-5uV">
-                                            <connections>
-                                                <segue destination="3uC-97-wfY" kind="show" id="tAD-je-dQQ"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="nKw-Cv-Pnc"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Education" id="xRF-n4-ghi"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WLA-Cn-NSh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1738" y="-757"/>
-        </scene>
-        <!--Item-->
-        <scene sceneID="KcD-DG-Nh5">
-            <objects>
-                <viewController id="IeJ-Vt-F6q" customClass="HomePage" customModule="OARS_mobile" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ld3-97-3Fa">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s1R-Ms-nPk">
-                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem id="RDE-lx-xfq">
-                                        <barButtonItem key="leftBarButtonItem" title="OARS" id="fjS-WW-nTD"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Profile" id="nM6-Cf-7Ub">
-                                            <connections>
-                                                <segue destination="3uC-97-wfY" kind="show" id="Snk-gr-GYl"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OyT-3B-WNb" customClass="PieChartView" customModule="Charts">
-                                <rect key="frame" x="0.0" y="64" width="320" height="248"/>
+                                <rect key="frame" x="0.0" y="72" width="320" height="248"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Next Apointment is..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6l-A9-ZD1">
-                                <rect key="frame" x="16" y="336" width="160" height="21"/>
+                                <rect key="frame" x="0.0" y="343" width="160" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="315-lu-Zoz">
-                                <rect key="frame" x="16" y="391" width="36" height="21"/>
+                                <rect key="frame" x="0.0" y="372" width="36" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ldc-KY-UNi">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Home" id="3v9-wU-bBL">
+                                        <barButtonItem key="leftBarButtonItem" title="OARS" id="yqd-9M-kof"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Profile" id="7tW-Bv-kII">
+                                            <connections>
+                                                <segue destination="3uC-97-wfY" kind="show" id="EOW-KC-VeS"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Inspirational quote" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUR-m1-5Ew">
-                                <rect key="frame" x="16" y="442" width="142" height="21"/>
+                                <rect key="frame" x="0.0" y="401" width="142" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="Rms-vQ-Tym"/>
+                        <color key="backgroundColor" red="0.19107097679999999" green="0.48371748469999998" blue="0.87422668150000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="fpA-bf-p1l"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="3Zy-aW-KTu"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <connections>
-                        <outlet property="pie1" destination="OyT-3B-WNb" id="bov-IB-gBe"/>
-                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dj9-4H-t7R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m0X-S3-A3Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1815" y="143"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="epV-vk-jl1">
-            <objects>
-                <tabBarController id="Tbq-QC-YIU" customClass="TabBarController" customModule="OARS_mobile" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SR4-Vd-fqA">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                    <connections>
-                        <outlet property="tab" destination="SR4-Vd-fqA" id="rkq-bb-OKb"/>
-                        <outlet property="tabBar" destination="SR4-Vd-fqA" id="IdQ-4U-IoA"/>
-                        <segue destination="IeJ-Vt-F6q" kind="relationship" relationship="viewControllers" id="UOG-5i-0Ga"/>
-                        <segue destination="IJk-f2-fI4" kind="relationship" relationship="viewControllers" id="01x-FF-c2x"/>
-                        <segue destination="b8B-Gf-xfz" kind="relationship" relationship="viewControllers" id="Dbd-RA-Dte"/>
-                        <segue destination="OAf-3q-wQv" kind="relationship" relationship="viewControllers" id="6Y5-Ef-cmr"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="w4b-Ex-HqE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="686" y="107"/>
+            <point key="canvasLocation" x="1088" y="71"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hvi-vc-fH8">
@@ -326,9 +310,6 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="Tbq-QC-YIU" kind="show" id="D5f-Y3-7Yq"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Already have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p9L-Gs-6Al">
                                 <rect key="frame" x="64" y="311" width="196" height="21"/>
@@ -363,6 +344,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SbZ-Dz-CuO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-669" y="980"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2u4-Pd-N3U">
+            <objects>
+                <viewController id="woE-rj-m0u" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OLW-Db-9ig">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6gp-9n-O3i">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Messages" id="3Mq-aO-QkO">
+                                        <barButtonItem key="leftBarButtonItem" title="OARS" id="riR-4n-fAw"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Profile" id="LaB-Ad-dKg"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24117550200000001" green="1" blue="0.19181662020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="q8E-Xu-tFJ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r4T-C3-gNm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="359" y="943"/>
         </scene>
         <!--Ib Calendar Data Source-->
         <scene sceneID="P7l-yQ-0CE">
@@ -427,7 +435,7 @@
                                 </connections>
                             </collectionView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.22064079980000001" blue="0.95393481660000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="KXM-nH-ctP"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Calendar" id="Sez-Bp-Iu8" customClass="FSCalendar"/>
@@ -435,7 +443,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jvj-Mt-bPN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="684" y="1079"/>
+            <point key="canvasLocation" x="-1665" y="-757"/>
         </scene>
         <!--Picture Upload-->
         <scene sceneID="PmD-2r-naD">
@@ -455,11 +463,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Title" id="itd-QU-7iQ">
-                                        <barButtonItem key="leftBarButtonItem" title="OARS" id="QYy-Y4-I8U">
-                                            <connections>
-                                                <segue destination="Tbq-QC-YIU" kind="show" id="siK-jc-hEX"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="leftBarButtonItem" title="OARS" id="QYy-Y4-I8U"/>
                                         <barButtonItem key="rightBarButtonItem" title="Profile" id="o1g-3L-gnH"/>
                                     </navigationItem>
                                 </items>
@@ -563,9 +567,7 @@
         <image name="logo@2x.png" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Snk-gr-GYl"/>
-        <segue reference="siK-jc-hEX"/>
-        <segue reference="UOG-5i-0Ga"/>
+        <segue reference="EOW-KC-VeS"/>
         <segue reference="iV2-lm-KRN"/>
     </inferredMetricsTieBreakers>
 </document>

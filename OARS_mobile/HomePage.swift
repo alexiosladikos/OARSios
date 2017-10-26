@@ -16,7 +16,7 @@ class HomePage: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        pieChartUpdate()
+//        pieChartUpdate()
         makeChart(good:23,bad:45,medium:6,name:"PARTICIPATION",pie1: pie1)
         
     }
@@ -41,10 +41,10 @@ class HomePage: UIViewController {
         
     }
     
-    func pieChartUpdate () {
-        //future home of pie chart code
-    }
-    @IBAction func renderCharts() {
-        pieChartUpdate()
-    }
+//    func pieChartUpdate () {
+//        //future home of pie chart code
+//    }
+//    @IBAction func renderCharts() {
+//        pieChartUpdate()
+//    }
 }
