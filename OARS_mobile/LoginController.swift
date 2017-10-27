@@ -8,6 +8,7 @@
 
 import UIKit
 import LocalAuthentication
+import Alamofire
 
 class LoginController: UIViewController {
 
@@ -34,7 +35,14 @@ class LoginController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        Alamofire.request("http://localhost:3000").validate().responseJSON { response in
+            switch response.result {
+            case .success:
+                print("Validation Successful")
+            case .failure(let error):
+                print(error)
+            }
+        }
     }
     
     override func didReceiveMemoryWarning() {

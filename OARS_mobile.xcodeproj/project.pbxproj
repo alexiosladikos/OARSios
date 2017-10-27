@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261E7B2C1FA3BCBA005A8AC8 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261E7B2B1FA3BCBA005A8AC8 /* SessionManager.swift */; };
 		266214D51F8EC811008DA96C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266214D41F8EC811008DA96C /* AppDelegate.swift */; };
 		266214D71F8EC811008DA96C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266214D61F8EC811008DA96C /* ViewController.swift */; };
 		266214DA1F8EC811008DA96C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266214D81F8EC811008DA96C /* Main.storyboard */; };
@@ -64,6 +65,7 @@
 
 /* Begin PBXFileReference section */
 		120664A048E4DCE5E2C9AD98 /* Pods-OARS_mobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OARS_mobileUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OARS_mobileUITests/Pods-OARS_mobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		261E7B2B1FA3BCBA005A8AC8 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		264043DE1F9A9D7C00D66A77 /* OARS_mobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OARS_mobile.entitlements; sourceTree = "<group>"; };
 		266214D11F8EC811008DA96C /* OARS_mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OARS_mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		266214D41F8EC811008DA96C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				2663C0781F97C01C0042C214 /* HomePage.swift */,
 				26DCF3CE1F9A89510084B7C8 /* CustomCell.swift */,
 				26D810581F9FAEDD0008A3B6 /* progressControll.swift */,
+				261E7B2B1FA3BCBA005A8AC8 /* SessionManager.swift */,
 			);
 			path = OARS_mobile;
 			sourceTree = "<group>";
@@ -544,6 +547,7 @@
 				26F6BB031F95206B00C9B604 /* LoginController.swift in Sources */,
 				266214D71F8EC811008DA96C /* ViewController.swift in Sources */,
 				26DCF3CF1F9A89510084B7C8 /* CustomCell.swift in Sources */,
+				261E7B2C1FA3BCBA005A8AC8 /* SessionManager.swift in Sources */,
 				266214D51F8EC811008DA96C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
